@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="ucrop_label_original">Original</string>
+    <string name="ucrop_label_edit_photo">Crop Image</string>
+
+    <string name="ucrop_image">Crop Image</string>
+    <string name="ucrop_error_input_data_is_absent">Both input and output Uri must be specified</string>
+
+</resources>

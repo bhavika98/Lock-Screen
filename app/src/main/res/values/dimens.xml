@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="block">@dimen/_60sdp</dimen>
+    <dimen name="main_title">@dimen/_15ssp</dimen>
+    <dimen name="sub_title">@dimen/_13ssp</dimen>
+    <dimen name="view_all">@dimen/_10ssp</dimen>
+    <dimen name="dialog_button">@dimen/_12ssp</dimen>
+    <dimen name="dialog_title">@dimen/_16ssp</dimen>
+    <dimen name="dialog_single_title">@dimen/_15ssp</dimen>
+    <dimen name="dialog_subtitle">@dimen/_11ssp</dimen>
+
+    //SlideBar
+    <dimen name="top_margin">@dimen/_55sdp</dimen>
+    <dimen name="bottom_margin">@dimen/_55sdp</dimen>
+    <dimen name="bottom_up_margin">@dimen/_150sdp</dimen>
+
+</resources>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#7C36FF</color>
+
+    <color name="mainBackground">#F5F5F5</color>
+    <color name="textMain">#0D0024</color>
+    <color name="textSub">#9D9D9D</color>
+    <color name="blockMain">@android:color/white</color>
+    <color name="strokeIcon">#CDCDCD</color>
+    <color name="overlayScreen">#50000000</color>
+
+    <color name="white">@android:color/white</color>
+    <color name="black">@android:color/black</color>
+
+    <color name="unlock_bg">#80000000</color>
+    <color name="line_que">#F5F5F5</color>
+
+    <color name="dialog_subtitle">#979797</color>
+    <color name="dialog_negative">#EDF1F7</color>
+    <color name="dialog_positive">@color/colorAccent</color>
+    <color name="dialog_field">#F5F7FA</color>
+
+    // Pattern Lock
+    <color name="regularColor">#d8dbe9</color>
+    <color name="selectedColor">#587bf4</color>
+    <color name="errorColor">#ea4954</color>
+
+    //Theme Style
+    <color name="view_white">#99ffffff</color>
+    <color name="view_black">#80000000</color>
+
+    //Ad Label
+    <color name="ad_yellow">#FFCC66</color>
+
+</resources>

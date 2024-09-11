@@ -1,0 +1,19 @@
+<network-security-config>
+    <!-- Enforce cleartext traffic only for specific domains -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">grankwin.com</domain>
+        <!-- Add other domains as needed -->
+    </domain-config>
+
+    <!-- Base configuration for trusted certificates -->
+    <base-config>
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+
+    <!-- Configuration for debugging scenarios (localhost) -->
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">127.0.0.1</domain>
+    </domain-config>
+</network-security-config>

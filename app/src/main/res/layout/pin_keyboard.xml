@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_horizontal">
+
+        <RelativeLayout style="@style/PinBox">
+
+            <ImageView
+                android:id="@+id/pin1"
+                style="@style/PinImage" />
+
+            <TextView
+                android:id="@+id/pinNum1"
+                style="@style/PinNumber"
+                android:text="1" />
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/PinBox">
+
+            <ImageView
+                android:id="@+id/pin2"
+                style="@style/PinImage" />
+
+            <TextView
+                android:id="@+id/pinNum2"
+                style="@style/PinNumber"
+                android:text="2" />
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/PinBox">
+
+            <ImageView
+                android:id="@+id/pin3"
+                style="@style/PinImage" />
+
+            <TextView
+                android:id="@+id/pinNum3"
+                style="@style/PinNumber"
+                android:text="3" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_horizontal">
+
+        <RelativeLayout style="@style/PinBox">
+
+            <ImageView
+                android:id="@+id/pin4"
+                style="@style/PinImage" />
+
+            <TextView
+                android:id="@+id/pinNum4"
+                style="@style/PinNumber"
+                android:text="4" />
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/PinBox">
+
+            <ImageView
+                android:id="@+id/pin5"
+                style="@style/PinImage" />
+
+            <TextView
+                android:id="@+id/pinNum5"
+                style="@style/PinNumber"
+                android:text="5" />
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/PinBox">
+
+            <ImageView
+                android:id="@+id/pin6"
+                style="@style/PinImage" />
+
+            <TextView
+                android:id="@+id/pinNum6"
+                style="@style/PinNumber"
+                android:text="6" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_horizontal">
+
+        <RelativeLayout style="@style/PinBox">
+
+            <ImageView
+                android:id="@+id/pin7"
+                style="@style/PinImage" />
+
+            <TextView
+                android:id="@+id/pinNum7"
+                style="@style/PinNumber"
+                android:text="7" />
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/PinBox">
+
+            <ImageView
+                android:id="@+id/pin8"
+                style="@style/PinImage" />
+
+            <TextView
+                android:id="@+id/pinNum8"
+                style="@style/PinNumber"
+                android:text="8" />
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/PinBox">
+
+            <ImageView
+                android:id="@+id/pin9"
+                style="@style/PinImage" />
+
+            <TextView
+                android:id="@+id/pinNum9"
+                style="@style/PinNumber"
+                android:text="9" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:weightSum="3">
+
+        <RelativeLayout style="@style/PinBox">
+
+            <ImageView
+                android:id="@+id/pinDot"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerInParent="true" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_centerInParent="true"
+                android:visibility="invisible"
+                app:tint="@android:color/black" />
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/PinBox">
+
+            <ImageView
+                android:id="@+id/pin0"
+                style="@style/PinImage" />
+
+            <TextView
+                android:id="@+id/pinNum0"
+                style="@style/PinNumber"
+                android:text="0" />
+
+        </RelativeLayout>
+
+        <RelativeLayout style="@style/PinBox">
+
+            <ImageView
+                android:id="@+id/pinDelete"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerInParent="true" />
+
+            <TextView
+                android:id="@+id/pinNumDel"
+                style="@style/PinNumber"
+                android:text="DEL"
+                android:textSize="@dimen/_14ssp" />
+
+            <!--            <ImageView-->
+            <!--                android:layout_width="@dimen/_20sdp"-->
+            <!--                android:layout_height="@dimen/_20sdp"-->
+            <!--                android:layout_centerInParent="true"-->
+            <!--                android:src="@drawable/icon_cancel"-->
+            <!--                app:tint="@android:color/black" />-->
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="280dp"
+    android:layout_height="75dp"
+    android:background="@drawable/unlock_background"
+    android:padding="2dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentStart="true" />
+
+    <com.romainpiel.shimmer.ShimmerTextView
+        android:id="@+id/text_label"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginStart="15dp"
+        android:layout_toEndOf="@+id/img_thumb"
+        android:gravity="center_vertical"
+        android:text="Slide to Unlock"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        app:reflectionColor="@color/colorPrimary" />
+
+    <ImageView
+        android:id="@+id/img_thumb"
+        android:layout_width="70.0dip"
+        android:layout_height="70.0dip"
+        android:src="@drawable/white_lock" />
+
+</RelativeLayout>
